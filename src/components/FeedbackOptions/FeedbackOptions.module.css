@@ -1,0 +1,24 @@
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.button {
+  cursor: pointer;
+  width: 80px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(85, 112, 116);
+  border-color: transparent;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(36, 29, 171);
+
+  transform: scale(1.1);
+  transition: all 250ms;
+  color: white;
+}
